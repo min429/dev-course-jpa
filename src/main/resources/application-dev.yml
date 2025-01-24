@@ -1,0 +1,5 @@
+# application.yml은 무조건 실행. dev의 경우 application-dev.yml까지 실행
+
+spring:
+  datasource:
+    url: jdbc:h2:./db_dev;MODE=MySQL
